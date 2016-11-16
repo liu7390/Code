@@ -8,7 +8,7 @@ class puppet {
     mode => '0755',
  }
   file { '/root/.ssh/id_rsa':
-    source => 'puppet:///modules/puppet/ubuntu.priv',
+    source => 'puppet:///modules/puppet/ubuntu',
     mode => '0600',
  }
   cron { 'run-puppet':
