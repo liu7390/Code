@@ -1,4 +1,5 @@
-daslfdjsl
-s
-fdjdslfkdj
-sdflkd
+node {
+ file {
+	test => dsfd
+}
+}
