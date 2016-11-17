@@ -7,9 +7,9 @@ class puppet {
     source => 'puppet:///modules/puppet/pull-updates.sh',
     mode => '0755',
  }
-  file { '/root/.ssh/id_rsa':
-    source => 'puppet:///modules/puppet/ubuntu',
-    mode => '0600',
+#  file { '/root/.ssh/id_rsa':
+#    source => 'puppet:///modules/puppet/ubuntu',
+#    mode => '0600',
  }
   cron { 'run-puppet':
     ensure => present,
